@@ -1,8 +1,8 @@
 {
   "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
+  "description": "A Bitcoin Gold blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/BTCGPU/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -35,12 +35,16 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "The Bitcoin Gold Developers",
+      "email": "support@bitcoingold.org"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/BTCGPU/insight-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/BTCGPU/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "satoshilabs/bitcore-lib#8e2caed768aa269b433a14981f0e36c0838a3d91",
-    "bitcore-message": "satoshilabs/bitcore-message#3c91c372285018d4a840dca8731899107b7c31df",
+    "bitcore-lib": "BTCGPU/bitcore-lib#1201a48148d23a5ce8d03cd3d7bd067d09e52a10",
+    "bitcore-message": "satoshilabs/bitcore-message#7fd68745426541d0fe464fcf126b054bbe5911c2",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
