@@ -64,7 +64,7 @@
   "main": "lib",
   "bitcoreNode": "lib",
   "dependencies": {
-    "async": "2.0.0",
+    "async": "3.2.2",
     "bitcore-lib": "BTCGPU/bitcore-lib#1201a48148d23a5ce8d03cd3d7bd067d09e52a10",
     "bitcore-message": "satoshilabs/bitcore-message#7fd68745426541d0fe464fcf126b054bbe5911c2",
     "body-parser": "^1.13.3",
